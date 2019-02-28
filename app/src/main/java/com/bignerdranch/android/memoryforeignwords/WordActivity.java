@@ -3,10 +3,7 @@ package com.bignerdranch.android.memoryforeignwords;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
-
-    int a;
-    int b;
+public class WordActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
