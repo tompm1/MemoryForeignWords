@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">MemoryForeignWords</string>
 
-        <string name="fragment_word_name1">name1</string>
-        <string name="fragment_word_name2">name2</string>
-        <string name="name3">name3</string>
-        <string name="name4">name4</string>
-        <string name="name5">name5</string>
+        <string name="text_view_fragment_original_word">name1</string>
+        <string name="text_view_fragment_translated_word">name2</string>
+        <string name="edit_text_fragment_original_word">name3</string>
+        <string name="edit_text_fragment_translated_word">name4</string>
+        <string name="button_save_words">zapisz</string>
 
 </resources>

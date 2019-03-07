@@ -9,11 +9,31 @@
     style="?android:listSeparatorTextViewStyle"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:text="@string/fragment_word_name1"/>
+    android:text="@string/text_view_fragment_original_word"/>
+
+<EditText
+    android:id="@+id/original_word"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="edit_text_fragment_original_word"/>
+
 <TextView
     style="?android:listSeparatorTextViewStyle"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:text="@string/fragment_word_name2"/>
+    android:text="@string/text_view_fragment_translated_word"/>
+
+<EditText
+    android:id="@+id/translated_word"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="edit_text_fragment_translated_word"/>
+
+    <Button
+        android:id="@+id/save_words"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_save_words"/>
+
 
 </LinearLayout>
