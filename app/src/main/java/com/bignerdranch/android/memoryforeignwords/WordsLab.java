@@ -7,7 +7,7 @@ public class WordsLab {
     private static WordsLab sWordsLab;
 
     private WordsLab (Context context){
-        
+
     }
 
     public static WordsLab get (Context context){
