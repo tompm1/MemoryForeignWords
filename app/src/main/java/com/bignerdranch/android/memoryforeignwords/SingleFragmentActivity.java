@@ -7,10 +7,11 @@ import android.support.v7.app.AppCompatActivity;
 
 public abstract class SingleFragmentActivity extends AppCompatActivity {
     protected abstract Fragment createFragment();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fragment);
+        setContentView(R.layout.activity_main);
         FragmentManager fm = getSupportFragmentManager();
         Fragment fragment = fm.findFragmentById(R.id.fragment_container);
         if (fragment == null) {

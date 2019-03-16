@@ -11,27 +11,27 @@ public class WordsLab {
     private static WordsLab sWordsLab;
     private List<Word> sWords;
 
-    private WordsLab (Context context){
+    private WordsLab(Context context) {
         sWords = new ArrayList<>();
         for (int i = 0; i < 100; i++) {
             Word word = new Word();
-            word.setmOriginalWord("OriginalWord #" +1);
-            word.setmTranslatedWord("TranslatedWord #" +1);
+            word.setmOriginalWord("OriginalWord #" + 1);
+            word.setmTranslatedWord("TranslatedWord #" + 1);
             sWords.add(word);
         }
 
     }
 
-    public static WordsLab get (Context context){
-        if(sWordsLab == null){
+    public static WordsLab get(Context context) {
+        if (sWordsLab == null) {
             sWordsLab = new WordsLab(context);
         }
         return sWordsLab;
     }
 
-    public Word getWord (UUID id){
-        for (Word word : sWords){
-            if (word.getmId().equals(id)){
+    public Word getWord(UUID id) {
+        for (Word word : sWords) {
+            if (word.getmId().equals(id)) {
                 return word;
             }
         }
